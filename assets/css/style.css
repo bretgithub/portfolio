@@ -115,8 +115,12 @@
   font-size: 2rem;
   }
 
+  /* .row {
+    align-content: center;
+  } */
+
 /* For mobile phones: */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
   /* Body content mobile */
   body {
     width: 100%;
@@ -134,7 +138,6 @@
     /* Main panel content mobile */
     #mainpanel-content  {
     margin: 20px 10px;
-    min-height: 25vh;
     }
 
     #mainpanel-content h1 {
