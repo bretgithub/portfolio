@@ -1,5 +1,5 @@
-/* For mobile phones: */
-@media only screen and (max-width: 600px) {
+/* For desktop and larger devices */
+  /* Body content for page */
   #head-nav-title {
     margin-left: 50px;
     padding: 10px;
@@ -7,21 +7,12 @@
     font-size: 2rem!important;
   }
 
-    /* For desktop and larger devices */
-    /* Body content for page */
-      body {
-        width: 75%;
-        margin: 0px auto; 
-        display: flex;
-        min-height: 100vh;
-        flex-direction: column;
-        }
   /* Footer, shown on medium to large screens */
     #footer-nav-links li {
       margin: 40px;
       display: inline;
     }
-  }
+  
   
   /* Nav links positioning */
   #head-nav-links {
@@ -50,15 +41,6 @@
     width: 100%;
   } 
   
-  /* Body content for page */
-  body {
-   width: 100%;
-   margin: 0px auto; 
-   display: flex;
-   min-height: 100vh;
-   flex-direction: column;
-  }
-
   /* Nav title positioning */
   #head-nav-title {
   margin-left: 50px;
@@ -96,7 +78,7 @@
 
   /* Body content for page */
   body {
-  width: 100%;
+  width: 75%;
   margin: 0px auto; 
   display: flex;
   min-height: 100vh;
@@ -133,5 +115,44 @@
   font-size: 2rem;
   }
 
+/* For mobile phones: */
+@media only screen and (max-width: 600px) {
+  /* Body content mobile */
+  body {
+    width: 100%;
+    margin: 0px auto; 
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    }
 
+    /* Main panel container mobile */
+    .mainpanel  {
+    margin: 50px;
+    }
+    
+    /* Main panel content mobile */
+    #mainpanel-content  {
+    margin: 20px 10px;
+    min-height: 25vh;
+    }
+
+    #mainpanel-content h1 {
+      font-size: 2rem;
+    }
+
+    #mainpanel-content h2 {
+      font-size: 1.5rem;
+    }
+
+    /* Side nav header mobile */
+    .side-nav-header {
+    font-size: 2.5rem;
+    }
+
+    /* Side nav links mobile */
+    .side-nav {
+    font-size: 2rem!important;
+    }
+}
 

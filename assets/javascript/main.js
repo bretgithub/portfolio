@@ -1,3 +1,5 @@
 $(document).ready(() => {
     $(".iziModal").iziModal();
+
+
 })
