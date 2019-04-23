@@ -1,0 +1,136 @@
+/* For mobile phones: */
+@media only screen and (max-width: 600px) {
+  #head-nav-title {
+    margin-left: 50px;
+    padding: 10px;
+    height: 100%;
+    font-size: 2rem!important;
+  }
+  
+  /* Nav links positioning */
+  #head-nav-links {
+    margin-right: 50px;
+    margin-top: 20px;
+  }
+  
+  /* Nav links font */
+  a {
+    font-size: 1.25rem!important;
+  }
+  
+  /* Resume trigger */
+  #resume-trigger {
+    padding: 5;
+    margin: 0 auto;
+    grid-area: 47 / 7 / 48 / 9;
+    font-size: 1rem;
+    font-family: var(--font-header);
+    border: none;
+  }
+
+  /* Resume modal */
+  #resume {
+    height: calc(100vh - 44px);
+    width: 100%;
+  } 
+  
+  /* Body content for page */
+  body {
+   width: 100%;
+   margin: 0px auto; 
+   display: flex;
+   min-height: 100vh;
+   flex-direction: column;
+  }
+
+  /* Nav title positioning */
+  #head-nav-title {
+  margin-left: 50px;
+  padding: 10px;
+  height: 100%;
+  font-size: 2rem!important;
+  }
+
+/* Nav links positioning */
+  #head-nav-links {
+  margin-right: 50px;
+  margin-top: 20px;
+  }
+
+/* Nav links font */
+  a {
+  font-size: 1.25rem!important;
+  }
+
+/* Resume trigger */
+  #resume-trigger {
+  padding: 5;
+  margin: 0 auto;
+  grid-area: 47 / 7 / 48 / 9;
+  font-size: 1rem;
+  font-family: var(--font-header);
+  border: none;
+  }
+
+  /* Resume modal */
+  #resume {
+  height: calc(100vh - 44px);
+  width: 100%;
+  } 
+
+  /* Body content for page */
+  body {
+  width: 100%;
+  margin: 0px auto; 
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  }
+
+  /* Sets main content position */
+  main {
+  flex: 1 0 auto;
+  }
+
+  /* Refers to main h1 */
+  main h1 {
+  font-weight: bold;
+  }
+
+  /* Refers to main h2 */
+  main h2 {
+  font-weight: 300;
+  }
+
+  /* Main panel container */
+  .mainpanel{
+  margin: 50px;
+  }
+
+  /* Main panel content */
+  #mainpanel-content {
+  margin: 50px;
+  }
+
+  /* Side nav content */
+  .side-nav-header {
+  font-size: 2rem;
+  }
+} 
+
+@media only screen and (min-width: 768px) {
+  /* For desktop and larger devices */
+  /* Body content for page */
+    body {
+      width: 75%;
+      margin: 0px auto; 
+      display: flex;
+      min-height: 100vh;
+      flex-direction: column;
+      }
+/* Footer, shown on medium to large screens */
+  #footer-nav-links li {
+    margin: 40px;
+    display: inline;
+  }
+}
