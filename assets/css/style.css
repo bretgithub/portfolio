@@ -6,6 +6,22 @@
     height: 100%;
     font-size: 2rem!important;
   }
+
+    /* For desktop and larger devices */
+    /* Body content for page */
+      body {
+        width: 75%;
+        margin: 0px auto; 
+        display: flex;
+        min-height: 100vh;
+        flex-direction: column;
+        }
+  /* Footer, shown on medium to large screens */
+    #footer-nav-links li {
+      margin: 40px;
+      display: inline;
+    }
+  }
   
   /* Nav links positioning */
   #head-nav-links {
@@ -116,21 +132,6 @@
   .side-nav-header {
   font-size: 2rem;
   }
-} 
 
-@media only screen and (min-width: 768px) {
-  /* For desktop and larger devices */
-  /* Body content for page */
-    body {
-      width: 75%;
-      margin: 0px auto; 
-      display: flex;
-      min-height: 100vh;
-      flex-direction: column;
-      }
-/* Footer, shown on medium to large screens */
-  #footer-nav-links li {
-    margin: 40px;
-    display: inline;
-  }
-}
+
+
