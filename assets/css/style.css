@@ -1,161 +1,143 @@
 /* For desktop and larger devices */
-  /* Body content for page */
-  #head-nav-title {
-    margin-left: 50px;
-    padding: 10px;
-    height: 100%;
-    font-size: 2rem!important;
-  }
 
-  /* Footer, shown on medium to large screens */
-    #footer-nav-links li {
-      margin: 40px;
-      display: inline;
-    }
-  
-  
-  /* Nav links positioning */
-  #head-nav-links {
-    margin-right: 50px;
-    margin-top: 20px;
-  }
-  
-  /* Nav links font */
-  a {
-    font-size: 1.25rem!important;
-  }
-  
-  /* Resume trigger */
-  #resume-trigger {
-    padding: 5;
-    margin: 0 auto;
-    grid-area: 47 / 7 / 48 / 9;
-    font-size: 1rem;
-    font-family: var(--font-header);
-    border: none;
-  }
-
-  /* Resume modal */
-  #resume {
-    height: calc(100vh - 44px);
-    width: 100%;
-  } 
-  
-  /* Nav title positioning */
-  #head-nav-title {
+/* Body content for page */
+#head-nav-title {
   margin-left: 50px;
   padding: 10px;
   height: 100%;
   font-size: 2rem!important;
-  }
+}
 
 /* Nav links positioning */
-  #head-nav-links {
+#head-nav-links {
   margin-right: 50px;
   margin-top: 20px;
-  }
+}
 
 /* Nav links font */
-  a {
+a {
   font-size: 1.25rem!important;
-  }
+}
 
 /* Resume trigger */
-  #resume-trigger {
+#resume-trigger {
   padding: 5;
   margin: 0 auto;
   grid-area: 47 / 7 / 48 / 9;
   font-size: 1rem;
   font-family: var(--font-header);
   border: none;
-  }
+}
 
-  /* Resume modal */
-  #resume {
+/* Resume modal */
+#resume {
   height: calc(100vh - 44px);
   width: 100%;
-  } 
+} 
 
-  /* Body content for page */
-  body {
+/* Footer, shown on medium to large screens */
+#footer-nav-links li {
+  margin: 40px;
+  display: inline;
+}
+
+/* Body content for page */
+body {
   width: 75%;
   margin: 0px auto; 
   display: flex;
   min-height: 100vh;
   flex-direction: column;
-  }
+}
 
-  /* Sets main content position */
-  main {
+/* Sets main content position */
+main {
   flex: 1 0 auto;
-  }
+}
 
-  /* Refers to main h1 */
-  main h1 {
+/* Refers to main h1 */
+main h1 {
   font-weight: bold;
-  }
+}
 
-  /* Refers to main h2 */
-  main h2 {
+/* Refers to main h2 */
+main h2 {
   font-weight: 300;
-  }
+}
 
-  /* Main panel container */
-  .mainpanel{
+/* Main panel container */
+.mainpanel{
   margin: 50px;
-  }
+}
 
-  /* Main panel content */
-  #mainpanel-content {
+/* Main panel content */
+#mainpanel-content {
   margin: 50px;
-  }
+}
 
-  /* Side nav content */
-  .side-nav-header {
+/* Side nav content */
+.side-nav-header {
   font-size: 2rem;
-  }
+}
 
-  .text-small {
-    font-size: 1rem;
-  }
+.text-small {
+  font-size: 1rem;
+}
+
+.card {
+  min-height: 20vw;
+}
+
+.card-text {
+  margin-left: 1vw;
+}
+
+.card-text > h3 {
+  font-weight: bold;
+}
+
+.card-text > h4 , p {
+  margin-left: 1vw;
+}
 
 /* For mobile phones: */
 @media only screen and (max-width: 768px) {
-  /* Body content mobile */
-  body {
+/* Body content mobile */
+body {
     width: 100%;
     margin: 0px auto; 
     display: flex;
     min-height: 100vh;
     flex-direction: column;
-    }
+  }
 
-    /* Main panel container mobile */
-    .mainpanel  {
+  /* Main panel container mobile */
+  .mainpanel  {
     margin: 50px;
-    }
-    
-    /* Main panel content mobile */
-    #mainpanel-content  {
+  }
+  
+  /* Main panel content mobile */
+  #mainpanel-content  {
     margin: 20px 10px;
-    }
+  }
 
-    #mainpanel-content h1 {
-      font-size: 2rem;
-    }
+  #mainpanel-content h1 {
+    font-size: 2rem;
+  }
 
-    #mainpanel-content h2 {
-      font-size: 1.5rem;
-    }
+  #mainpanel-content h2 {
+    font-size: 1.5rem;
+  }
 
-    /* Side nav header mobile */
-    .side-nav-header {
+  /* Side nav header mobile */
+  .side-nav-header {
     font-size: 2.5rem;
-    }
+  }
 
-    /* Side nav links mobile */
-    .side-nav {
+  /* Side nav links mobile */
+  .side-nav {
     font-size: 2rem!important;
-    }
+  }
 }
+
 
